@@ -35,10 +35,34 @@
 		]
     },
 	"Java":{
-		"DOCUMENTATION": [],
-        "BEGINNER TUTORIALS": [],
-        "MODERATE TUTORIALS": [],
-        "INTERMEDIATE TUTORIALS": []
+		"DOCUMENTATION": [
+			"https://www.tutorialspoint.com/java/index.htm",
+			"https://docs.oracle.com/javase/8/docs/",
+			"https://download.java.net/java/early_access/loom/docs/api/",
+			"https://www.w3schools.com/java/"
+		],
+        "BEGINNER TUTORIALS": [
+			"https://youtu.be/eIrMbAQSU34",
+			"https://youtu.be/grEKMHGYyns",
+			"https://www.guru99.com/java-tutorial.html",
+			"https://beginnersbook.com/java-tutorial-for-beginners-with-examples/",
+			"https://www.codecademy.com/learn/learn-java",
+			"https://www.udemy.com/course/java-tutorial/",
+			"https://www.udemy.com/course/java-programming-basics/",
+			"https://www.udemy.com/course/java-for-absolute-beginners-c/"
+		],
+        "MODERATE TUTORIALS": [
+			"https://youtu.be/xk4_1vDrzzo",
+			"https://www.programiz.com/java-programming",
+			"https://www.codecademy.com/learn/java-for-programmers",
+			"https://www.udemy.com/course/java-design-patterns-tutorial/",
+			"https://www.udemy.com/course/develop-a-reactive-java-microservice-with-reactivej/"
+		],
+        "INTERMEDIATE TUTORIALS": [
+			"https://youtu.be/Ae-r8hsbPUo",
+			"https://youtu.be/n0GjRXs0jTk",
+			"https://youtu.be/vJ-Zn4fo0MQ"
+		]
     },
 	"JavaScript":{
 		"DOCUMENTATION": [
@@ -84,9 +108,28 @@
 		]
     },
 	"C":{
-        "BEGINNER TUTORIALS": [],
-        "MODERATE TUTORIALS": [],
-        "INTERMEDIATE TUTORIALS": []
+		"DOCUMENTATION": [
+			"https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-170",
+			"https://devdocs.io/c/",
+			"https://en.cppreference.com/w/c/language",
+			"https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+		],
+        "BEGINNER TUTORIALS": [
+			"https://youtu.be/KJgsSFOSQv0",
+			"https://youtu.be/8PopR3x-VMY",
+			"https://www.codecademy.com/learn/learn-c",
+			"https://www.udemy.com/course/c-programming-2019-master-the-basics/"
+		],
+        "MODERATE TUTORIALS": [
+			"https://www.programiz.com/c-programming",
+			"https://youtu.be/87SH2Cn0s9A",
+			"https://youtu.be/Bz4MxDeEM6k"
+		],
+        "INTERMEDIATE TUTORIALS": [
+			"https://youtu.be/zuegQmMdy8M",
+			"https://youtu.be/lQP4X3odvHE",
+			"https://youtu.be/BRsv3ZXoHto"
+		]
     },
 	"C++":{
         "BEGINNER TUTORIALS": [],
