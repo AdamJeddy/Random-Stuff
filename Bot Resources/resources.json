@@ -11,7 +11,7 @@
             "Learn Python - Full Course for Beginners [Tutorial] - YouTube - https://youtu.be/rfscVS0vtbw",
             "Python Tutorial - Python Full Course for Beginners - YouTube - https://youtu.be/_uQrJ0TkZlc",
             "Introduction to Python Course | DataCamp - https://www.datacamp.com/courses/intro-to-python-for-data-science",
-            "\n                Learn Python Programming - Python Tutorial\n             - https://pythonbasics.org/",
+            "Learn Python Programming - Python Tutorial - https://pythonbasics.org/",
             "The Python Tutorial 2014 Python 3 documentation - https://docs.python.org/3/tutorial/",
             "About Python - https://python.swaroopch.com/about_python.html",
             "Python Tutorial: Learn Python For Free | Codecademy - https://www.codecademy.com/learn/learn-python",
@@ -29,7 +29,7 @@
             "Machine Learning with Python Certification | freeCodeCamp.org - https://www.freecodecamp.org/learn/machine-learning-with-python/",
             "Intermediate Python Programming Course - YouTube - https://youtu.be/HGOBQPFzWKo",
             "Tensorflow Object Detection in 5 Hours with Python | Full Course with 3 Projects - YouTube - https://youtu.be/yqkISICHH-U",
-            "Intermediate Python Tutorials \u2013 Real Python - https://realpython.com/tutorials/intermediate/",
+            "Intermediate Python Tutorials - https://realpython.com/tutorials/intermediate/",
             "Intermediate Python Course | DataCamp - https://www.datacamp.com/courses/intermediate-python",
             "Free Python Tutorial - Advanced Python: Python packaging. Pip install your scripts! | Udemy - https://www.udemy.com/course/python-packaging/",
             "Free Python Tutorial - Practical Python | Udemy - https://www.udemy.com/course/practical-python-k/"
@@ -44,10 +44,8 @@
             "discord.py doc - https://discordpy.readthedocs.io/en/stable/"
         ],
         "Keywords": [
-            "Python",
-            "py",
-            "CPython",
-            "PyPy"
+            "python",
+            "py"
         ]
     },
     "Java": {
@@ -69,7 +67,7 @@
             "Free Java Tutorial - Java for Absolute Beginners | Udemy - https://www.udemy.com/course/java-for-absolute-beginners-c/"
         ],
         "Moderate Tutorials": [
-            "Java Full Course \u00e2\u02dc\u2022\u00e3\u20ac - https://youtu.be/xk4_1vDrzzo",
+            "Java Full Course - https://youtu.be/xk4_1vDrzzo",
             "Learn Java Programming - https://www.programiz.com/java-programming",
             "Java for Programmers | Codecademy - https://www.codecademy.com/learn/java-for-programmers",
             "Free Java Tutorial - Java Design Patterns and Architecture | Udemy - https://www.udemy.com/course/java-design-patterns-tutorial/",
@@ -85,7 +83,7 @@
             "Java AWT Toolkit - https://www.javatpoint.com/java-awt-toolkit"
         ],
         "Keywords": [
-            "Java"
+            "java"
         ]
     },
     "JavaScript": {
@@ -100,7 +98,7 @@
             "Learn JavaScript - Full Course for Beginners - YouTube - https://youtu.be/PkZNo7MFNFg",
             "JavaScript Tutorial: Learn JavaScript For Free | Codecademy - https://www.codecademy.com/learn/introduction-to-javascript",
             "JavaScript Garden - https://bonsaiden.github.io/JavaScript-Garden",
-            "JavaScript \u2014 Dynamic client-side scripting - Learn web development | MDN - https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
+            "JavaScript Dynamic client-side scripting - Learn web development | MDN - https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
             "Free JavaScript Tutorial - Javascript Essentials | Udemy - https://www.udemy.com/course/javascript-essentials/",
             "Free JavaScript Tutorial - Learn to Program in Javascript: Beginner to Pro | Udemy - https://www.udemy.com/course/programming-in-javascript/",
             "JavaScript Basics for Beginners | Udemy - https://www.udemy.com/course/javascript-basics-for-beginners/"
@@ -140,15 +138,15 @@
             "discord.js Guide - https://discordjs.guide/#before-you-begin"
         ],
         "Keywords": [
-            "JavaScript",
-            "JS"
+            "javascript",
+            "js"
         ]
     },
     "C": {
         "Description": "C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions.",
         "Documentation": [
             "C docs - get started, tutorials, reference. | Microsoft Docs - https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-170",
-            "DevDocs \u2014 C documentation - https://devdocs.io/c/",
+            "DevDocs C documentation - https://devdocs.io/c/",
             "C language - cppreference.com - https://en.cppreference.com/w/c/language",
             "The GNU C Reference Manual - https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
         ],
@@ -160,7 +158,7 @@
         ],
         "Moderate Tutorials": [
             "Learn C Programming - https://www.programiz.com/c-programming",
-            "C Full Course \u011f\u0178\u2022\u00b9\u00ef\u00b8 - https://youtu.be/87SH2Cn0s9A",
+            "C Full Course - https://youtu.be/87SH2Cn0s9A",
             "C Programming All-in-One Tutorial Series (10 HOURS!) - YouTube - https://youtu.be/Bz4MxDeEM6k"
         ],
         "Intermediate Tutorials": [
@@ -169,7 +167,6 @@
             "Function Pointers in C - YouTube - https://youtu.be/BRsv3ZXoHto"
         ],
         "Keywords": [
-            "C",
             "c"
         ]
     },
@@ -198,7 +195,7 @@
             "C++ Tutorial : Advanced Functions - YouTube - https://youtu.be/TGOXttOoI0U"
         ],
         "Keywords": [
-            "C++",
+            "c++",
             "cpp"
         ]
     },
@@ -218,7 +215,7 @@
         ],
         "Moderate Tutorials": [
             "C# Complete Tutorial From Beginner To Advance - By Bob Tabor - FL Developers - YouTube - https://youtu.be/FPeGkedZykA",
-            "C# Full Course \u011f\u0178 - https://youtu.be/wxznTygnRfQ",
+            "C# Full Course - https://youtu.be/wxznTygnRfQ",
             "Free C# Tutorial - The complete algorithms course in C# and .Net | Udemy - https://www.udemy.com/course/the-complete-algorithms-course-in-csharp-and-dotnet/"
         ],
         "Intermediate Tutorials": [
@@ -230,8 +227,7 @@
             "Free C# Tutorial - CRUD C#.Net with Entity Framework | Udemy - https://www.udemy.com/course/crud-cnet-with-entity-framework/"
         ],
         "Keywords": [
-            "C#",
-            "C Sharp"
+            "c#"
         ]
     },
     "HTML": {
@@ -240,11 +236,11 @@
             "HTML Tutorial - https://www.w3schools.com/html/",
             "HTML Docs - https://developer.mozilla.org/en-US/docs/Web/HTML",
             "HTML5 Reference - https://dev.w3.org/html5/html-author/",
-            "DevDocs \u2014 HTML documentation - https://devdocs.io/html/"
+            "DevDocs HTML documentation - https://devdocs.io/html/"
         ],
         "Beginner Tutorials": [
             "Responsive Web Design Certification | freeCodeCamp.org - https://www.freecodecamp.org/learn/responsive-web-design/",
-            "Learn HTML \u00e2\u20ac\u201c Full Tutorial for Beginners (2022) - YouTube - https://youtu.be/kUMe1FH4CHE",
+            "Learn HTML Full Tutorial for Beginners (2022) - YouTube - https://youtu.be/kUMe1FH4CHE",
             "HTML Tutorial: Learn HTML For Free | Codecademy - https://www.codecademy.com/learn/learn-html",
             "Free HTML Tutorial - Web Development By Doing: HTML / CSS From Scratch | Udemy - https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/",
             "Free HTML Tutorial - Learn HTML & CSS: How To Start Your Web Development Career | Udemy - https://www.udemy.com/course/how-i-landed-a-web-development-job-earned-5k-freelancing/"
@@ -265,15 +261,14 @@
             "Bootstrap Docs - https://getbootstrap.com/docs/5.1/getting-started/introduction/"
         ],
         "Keywords": [
-            "HTML",
-            "HyperText Markup Language"
+            "html"
         ]
     },
     "CSS": {
         "Description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
         "Documentation": [
             "CSS: Cascading Style Sheets | MDN - https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "DevDocs \u2014 CSS documentation - https://devdocs.io/css/",
+            "DevDocs CSS documentation - https://devdocs.io/css/",
             "CSS Reference - https://www.w3schools.com/cssref/",
             "All CSS specifications - https://www.w3.org/Style/CSS/specs.en.html"
         ],
@@ -287,7 +282,7 @@
         ],
         "Moderate Tutorials": [
             "Advanced HTML/CSS Concepts Crash Course - YouTube - https://youtu.be/XhqEuyWjbdo",
-            "Advanced CSS Tutorial \u00e2\u20ac\u201d Level Up Your CSS Skills - YouTube - https://youtu.be/8MCjAktqZaM",
+            "Advanced CSS Tutorial | Level Up Your CSS Skills - YouTube - https://youtu.be/8MCjAktqZaM",
             "Learn CSS Position In 9 Minutes - YouTube - https://youtu.be/jx5jmI0UlXU",
             "Learn flexbox the easy way - YouTube - https://youtu.be/u044iM9xsWU",
             "Free CSS Tutorial - Mastering CSS 3.0 Selectors | Udemy - https://www.udemy.com/course/css3-selectors/"
@@ -306,8 +301,7 @@
             "Front End Development Libraries Certification | freeCodeCamp.org - https://www.freecodecamp.org/learn/front-end-development-libraries/"
         ],
         "Keywords": [
-            "CSS",
-            "Cascading Style Sheets"
+            "css"
         ]
     }
 }
