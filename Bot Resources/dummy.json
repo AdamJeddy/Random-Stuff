@@ -1,0 +1,101 @@
+{
+    "Python": {
+        "BEGINNER": [
+            "Python Tutorial - Python Full Course for Beginners - https://youtu.be/_uQrJ0TkZlc",
+            "Learn Python - Full Course for Beginners [Tutorial] - https://youtu.be/rfscVS0vtbw",
+			"Python Tutorial - https://www.w3schools.com/python/",
+            "Python Programming Language - GeeksforGeeks - https://www.geeksforgeeks.org/python-programming-language/",
+			"Learn Python(Free) - https://www.codecademy.com/learn/learn-python-3"
+        ],
+        "MEDIUM": [],
+        "INTERMEDIATE": []
+    },
+    "Java": {
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut unde iste perspiciatis hic suscipit quae, enim beatae earum voluptate.\n",
+        "Youtube": [
+            "Learn Java 8 - Full Tutorial for Beginners - https://youtu.be/grEKMHGYyns"
+        ],
+        "Basic Tutorials": [
+            "Python Programming Language - GeeksforGeeks - https://w3schools.com/java",
+            "Java \u201cBack to Basics\u201d Tutorial | Baeldung - https://baeldung.com/java-tutorial",
+            "Java Programming Language - GeeksforGeeks - https://geeksforgeeks.org/java"
+        ],
+        "Courses": [
+            "Learn Java (Free or Paid) - https://www.codecademy.com/learn/learn-python-3",
+            "Java Programming (Free) - https://java-programming.mooc.fi/"
+        ],
+        "Keywords": [
+            "java"
+        ]
+    },
+    "JavaScript": {
+        "Youtube": [
+            "Learn JavaScript - Full Course for Beginners - https://youtu.be/PkZNo7MFNFg"
+        ],
+        "Basic Tutorials": [
+            "JavaScript Tutorial - https://www.w3schools.com/js/",
+            "JavaScript - GeeksforGeeks - https://www.geeksforgeeks.org/javascript/"
+        ],
+        "Courses": [
+            "Learn JavaScript (Free) - https://www.codecademy.com/learn/introduction-to-javascript"
+        ],
+        "Keywords": [
+            "javascript",
+            "js"
+        ]
+    },
+    "C": {
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut unde iste perspiciatis hic suscipit quae, enim beatae earum voluptate.\n",
+        "Youtube": [
+            "C Programming Tutorial for Beginners - https://youtu.be/KJgsSFOSQv0"
+        ],
+        "Basic Tutorials": [
+            "C Tutorial - https://www.w3schools.com/c/index.php",
+            "C Programming Language - GeeksforGeeks - https://www.geeksforgeeks.org/c-programming-language/"
+        ],
+        "Courses": [
+            "Learn C (Free) - https://www.codecademy.com/learn/learn-c",
+            "C Programming For Beginners(Paid) - https://www.udemy.com/course/c-programming-for-beginners-/",
+            "Introductory C Programming Specialization (Coursera) - https://www.coursera.org/specializations/c-programming"
+        ],
+        "Keywords": [
+            "c"
+        ]
+    },
+    "C++": {
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut unde iste perspiciatis hic suscipit quae, enim beatae earum voluptate.\n",
+        "Youtube": [
+            "C++ Tutorial for Beginners - Full Course - https://youtu.be/vLnPwxZdW4Y",
+            "C++ Programming Course - Beginner to Advanced - https://youtu.be/8jLOx1hD3_o"
+        ],
+        "Basic Tutorials": [
+            "C++ Tutorial - https://www.w3schools.com/CPP/default.asp",
+            "C++ Programming Language - GeeksforGeeks - https://www.geeksforgeeks.org/c-plus-plus/"
+        ],
+        "Courses": [
+            "Learn C++ (Free) - https://www.codecademy.com/learn/learn-c-plus-plus"
+        ],
+        "Keywords": [
+            "cpp",
+            "c++"
+        ]
+    },
+    "C#": {
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut unde iste perspiciatis hic suscipit quae, enim beatae earum voluptate.\n",
+        "Youtube": [
+            "C# Tutorial - Full Course for Beginners - https://youtu.be/GhQdlIFylQ8"
+        ],
+        "Basic Tutorials": [
+            "C# Tutorial (C Sharp) - https://www.w3schools.com/cs/index.php",
+            "C# Programming Language - GeeksforGeeks - https://www.geeksforgeeks.org/csharp-programming-language/"
+        ],
+        "Courses": [
+            "Learn C# (Free) - https://www.codecademy.com/learn/learn-c-sharp",
+            "C# Basics for Beginners: Learn C# Fundamentals by Coding (Paid) - https://www.udemy.com/course/csharp-tutorial-for-beginners/"
+        ],
+        "Keywords": [
+            "csharp",
+            "c#"
+        ]
+    }
+}
