@@ -1,0 +1,101 @@
+{
+	"Python":{
+        "DOCUMENTATION":[
+			"https://docs.python.org/3/",
+			"https://www.python.org/doc/",
+			"https://devdocs.io/python~3.10/",
+			"https://www.w3schools.com/python/default.asp"
+		],
+		"BEGINNER TUTORIALS": [
+			"https://youtu.be/rfscVS0vtbw",
+			"https://youtu.be/_uQrJ0TkZlc",
+			"https://www.datacamp.com/courses/intro-to-python-for-data-science",
+			"https://pythonbasics.org/",
+			"https://docs.python.org/3/tutorial/",
+			"https://python.swaroopch.com/about_python.html",
+			"https://www.codecademy.com/learn/learn-python",
+			"https://www.udemy.com/course/pythonforbeginnersintro/"
+		],
+        "MODERATE TUTORIALS": [
+			"https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+			"https://automatetheboringstuff.com/",
+			"https://youtu.be/vmEHCJofslg",
+			"https://www.geeksforgeeks.org/python-programming-language/",
+			"https://www.udemy.com/course/learn-python-3-crash-course/",
+			"https://www.udemy.com/course/smnr004-python-for-data-analysis/"
+		],
+        "INTERMEDIATE TUTORIALS": [
+			"https://www.freecodecamp.org/learn/machine-learning-with-python/",
+			"https://youtu.be/HGOBQPFzWKo",
+			"https://youtu.be/yqkISICHH-U",
+			"https://realpython.com/tutorials/intermediate/",
+			"https://www.datacamp.com/courses/intermediate-python",
+			"https://www.udemy.com/course/python-packaging/",
+			"https://www.udemy.com/course/practical-python-k/"
+		]
+    },
+	"Java":{
+		"DOCUMENTATION": [],
+        "BEGINNER TUTORIALS": [],
+        "MODERATE TUTORIALS": [],
+        "INTERMEDIATE TUTORIALS": []
+    },
+	"JavaScript":{
+		"DOCUMENTATION": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+			"https://nodejs.org/en/docs/",
+			"https://jsdoc.app/",
+			"https://www.w3schools.com/jsref/default.asp"
+		],
+        "BEGINNER TUTORIALS": [
+			"https://youtu.be/PkZNo7MFNFg",
+			"https://www.codecademy.com/learn/introduction-to-javascript",
+			"https://bonsaiden.github.io/JavaScript-Garden",
+			"https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
+			"https://www.udemy.com/course/javascript-essentials/",
+			"https://www.udemy.com/course/programming-in-javascript/",
+			"https://www.udemy.com/course/javascript-basics-for-beginners/"
+		],
+		"MODERATE TUTORIALS": [
+			"https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+			"http://eloquentjavascript.net/",
+			"https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks",
+			"https://nodeschool.io/",
+			"https://www.pluralsight.com/courses/code-school-real-time-web-with-nodejs",
+			"https://www.udemy.com/course/build-your-first-react-js-application/",
+			"https://www.codecademy.com/learn/react-101",
+			"https://www.codecademy.com/learn/learn-typescript",
+			"https://www.codecademy.com/learn/learn-node-js",
+			"https://www.codecademy.com/learn/learn-react-native",
+			"https://www.codecademy.com/learn/learn-angularjs",
+			"https://www.codecademy.com/learn/learn-redux",
+			"https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+			"https://www.udemy.com/course/the-complete-javascript-course/"
+		],
+		"INTERMEDIATE TUTORIALS": [
+			"https://youtu.be/8hKo9Xa4cXk",
+			"https://www.codecademy.com/learn/learn-intermediate-javascript",
+			"https://javascript.info/",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+			"https://www.udemy.com/course/refactoru-adv-js/"
+		]
+    },
+	"C":{
+        "BEGINNER TUTORIALS": [],
+        "MODERATE TUTORIALS": [],
+        "INTERMEDIATE TUTORIALS": []
+    },
+	"C++":{
+        "BEGINNER TUTORIALS": [],
+        "MODERATE TUTORIALS": [],
+        "INTERMEDIATE TUTORIALS": []
+    },
+	"C#":{
+        "BEGINNER TUTORIALS": [],
+        "MODERATE TUTORIALS": [],
+        "INTERMEDIATE TUTORIALS": []
+    }
+}
