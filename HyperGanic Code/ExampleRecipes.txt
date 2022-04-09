@@ -1,0 +1,19 @@
+//geoCube = OpenModelFile(C:\Users\Main\Downloads\StarterFiles\Assets\Inputs\Cube.stl);
+
+geoCube = SetScale(input1, vector(8, 0.5, 11));
+
+geoCube = Center(geoCube);
+
+denCube = Voxelize(geoCube);
+denCube = Smoothen(denCube, 2);
+//imgEmbossAce = OpenImageFile(C:\Users\Main\Downloads\StarterFiles\Assets\Inputs\Ace.png, 100%, 100%, true, auto, false, Y+, 0, 0, 0, 0,, 0);
+//imgEmbossAceBack = OpenImageFile(C:\Users\Main\Downloads\StarterFiles\Assets\Inputs\Ace.png, 100%, 100%, true, auto, false, Y-, 0, 0, 0, 0,, 0);
+//denCube = EmbossImage(denCube, imgEmbossAce, -1);
+//denCube = EmbossImage(denCube, imgEmbossAceBack, 1);
+denCube = EmbossImage(denCube, image1, -1);
+denCube = EmbossImage(denCube, image2, 1);
+
+Return(0, denCube);
+
+//PreviewGeometry(geoCube, false, false, TOMATO);
+// TOMATO, KIWI, LEMON

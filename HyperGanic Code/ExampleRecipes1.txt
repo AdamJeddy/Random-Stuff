@@ -1,0 +1,33 @@
+denQueen = imageRevolve(vector(0,0,0), vector(0,0,1), 0, 15, 80, image3, , 2, vector(1,0,0), union);
+
+geoCube = SetScale(input1, vector(3,3,4));
+geoCube = Center(geoCube);
+denCube = Voxelize(geoCube);
+
+//latUnitCell = OpenModelFile(C:\Users\Main\Downloads\StarterFiles\Assets\Inputs\DXF\Diamond.dxf);
+latUnitCell = OpenModelFile(C:\Users\Main\Downloads\StarterFiles\Assets\Inputs\DXF\Hexagon1.dxf);
+
+//latInFill = LatticeFill(latUnitCell, denQueen, 0.5);
+//latInFill = LatticeFillAdaptive(latUnitCell, denQueen, 0.3, 1, true);
+
+//latInFill = SetRadius(latInFill, 0.2);
+latInFill = RadiusMap(latInFill, 0.1, 0.6, image4);
+
+denInfill = Voxelize(latInFill);
+denInfill = Smoothen(denInfill, 0.05);
+
+// denQueen = PeriodicPattern(denQueen, pattern(SchwarzP, 2, 0.3));
+// denQueen = PeriodicPattern(denQueen, pattern(Gyroid, 4, 0.1));
+denQueen = PeriodicPatternMap(denQueen, pattern(Gyroid, 3, 0.1), image4, 1, 1, 1);
+
+denTop = Boolean(denQueen, denCube, difference);
+denBottom = Boolean(denQueen, denCube, intersection);
+
+latInFillTop = LatticeFillAdaptive(latUnitCell, denTop, 0.3, 1, true);
+latInFillBottom = LatticeFillAdaptive(latUnitCell, denBottom, 0.3, 1, true);
+
+latInFillAll = LatticeMerge(latInFillBottom, latInFillTop, 0.2, 0.3);
+latInFillAll = SetRadius(latInFillAll, 0.2);
+
+//return(0, denResult);
+previewGeometry(latInFillAll, false, false, TOMATO);
