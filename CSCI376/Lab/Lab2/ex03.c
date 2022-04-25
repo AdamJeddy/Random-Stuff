@@ -6,44 +6,46 @@
 
 struct arrStruct 
 {
-	int size, oddCount, evenCount,
+	long size;
+	int oddCount, evenCount;
 	int* array;
 };
 
+long int getTimeDiff(const struct timeval beg, const struct timeval end){
+    return (end.tv_sec - beg.tv_sec) * 1000000 +  end.tv_usec - beg.tv_usec;
+}
+
+
 void* countOdd(void* params)
 {
-    struct Pow* data = (struct Pow*)params;
+    struct arrStruct* data = (struct arrStruct*)params;
 	data->oddCount = 0;
-	
+
 	for(int i = 0; i < data->size; i++)
-		if (arr[i] % 2 == 1)
+		if (data->array[i] % 2 == 1)
 			data->oddCount++;
-	
-	return count;
 }
 
 void* countEven(void* params)
 {
-    struct Pow* data = (struct Pow*)params;
+    struct arrStruct* data = (struct arrStruct*)params;
 	data->evenCount = 0;
 	
 	for(int i = 0; i < data->size; i++)
-		if (arr[i] % 2 == 0)
+		if (data->array[i] % 2 == 0)
 			data->evenCount++;
-	
-	return count;
 }
 
 int main(){
     // Create Array (1)
-	int size = 100000000;
+	long size = 100000000;
     int* arrTemp = (int*)malloc(size * sizeof(int));
 	
-	struct arrStruct arr = {size, 0, 0, &arrTemp};
+	struct arrStruct arr = {size, 0, 0, arrTemp};
 	
     // Initialize Array(2)
 	for (int i = 0; i < size; i++)
-		arr[i] = i % 5;
+		arrTemp[i] = i % 5;
     
     // Start Timer (5)
 	struct timeval start;
@@ -53,16 +55,16 @@ int main(){
 	int threadscount = 2;
 	pthread_t threads[threadscount];
 	
-	pthread_create(&threads[0], NULL, countEven, (void*)&arrTemp);
-	pthread_create(&threads[1], NULL, countOdd, (void*)&arrTemp);
-	
-    //Display
-	printf("Evens: %d\n", arrStruct->evenCount);
-    printf("Odds:  %d\n", arrStruct->oddCount);
+	pthread_create(&threads[0], NULL, countEven, (void*)&arr);
+	pthread_create(&threads[1], NULL, countOdd, (void*)&arr);
     
 	// Threads join
 	for(int i=0; i<threadscount; i++)
         pthread_join(threads[i], NULL);
+        
+    //Display
+	printf("Evens: %d\n", arr.evenCount);
+    printf("Odds:  %d\n", arr.oddCount);
 	
     // End Timer (5)
 	struct timeval end;
@@ -72,6 +74,6 @@ int main(){
 	long millis = getTimeDiff(start, end) / 1000;
     printf("Wall Time Taken: %ldms\n", millis );
 	
-	free(arr);
+	free(arrTemp);
     return 0;
 }
