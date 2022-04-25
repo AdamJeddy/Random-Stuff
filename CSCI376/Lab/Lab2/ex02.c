@@ -7,7 +7,6 @@ long int getTimeDiff(const struct timeval beg, const struct timeval end){
     return (end.tv_sec - beg.tv_sec) * 1000000 +  end.tv_usec - beg.tv_usec;
 }
 
-
 int countOdd(int* arr, int size){
     // To Complete (3)
 	int count = 0;
