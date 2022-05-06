@@ -1,1 +1,0 @@
-The sum of the 5 numbers in the file is 15
