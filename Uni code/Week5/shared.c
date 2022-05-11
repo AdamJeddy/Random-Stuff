@@ -15,7 +15,7 @@ int sharedSum;
 void* sumArrayShared(void* lparams){
     struct Shared data = *(struct Shared*)lparams;
 	
-    for(int i=data.beg; i<data.end; i++){
+    for(int i=data.beg; i<data.end; i++) {
         sharedSum += data.arr[i];
     }
 }
