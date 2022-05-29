@@ -1,0 +1,26 @@
+__kernel void initializeArray(__global int* arr, const unsigned int count) {
+   int i = get_global_id(0);
+   if(i < count) { arr[i] = i + 1; }
+}
+__kernel void modifyArray(__global int* arr, const unsigned int count, const int num, char op) {
+   int i = get_global_id(0);
+   if(i < count)
+		(op == '+') ? (arr[i] += num) : (arr[i] -= num);
+}
+__kernel void reverseArray(__global int* arr, const unsigned int count) {
+	int i = get_global_id(0);
+	int temp;
+	if (i < count && i < count/2) {
+		temp = arr[i];
+		arr[i] = arr[count - i - 1];
+		arr[count - i - 1] = temp;
+	}
+}
+__kernel void getIDs(__global int* globalIDBuffer, __global int* localIDBuffer, __global int* groupIDBuffer, const unsigned int count) { 
+    int i = get_global_id(0), j = get_local_id(0), k = get_group_id(0);
+    if (i < count) {
+        globalIDBuffer[i] = i;
+        localIDBuffer[i] = j;
+        groupIDBuffer[i] = k;
+	}
+}
